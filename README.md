@@ -1,0 +1,1 @@
+Collection of mille5a9's solutions for the problems on projecteuler.net
