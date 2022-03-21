@@ -1,7 +1,9 @@
-class isPrime {
+package helpers;
+
+class isPrimeHelper {
 
     //Given an integer, return true if the integer is prime
-    private boolean isPrime(int n) {
+    public boolean isPrime(int n) {
         if (n <= 1) return false;
         else if (n == 2) return true;
         else if (n % 2 == 0) return false;

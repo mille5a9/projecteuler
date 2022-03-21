@@ -1,3 +1,5 @@
+package helpers;
+
 class GetDivisorCount {
 
     public static int getDivisorCount(long n) {

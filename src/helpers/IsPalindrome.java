@@ -1,9 +1,11 @@
+package helpers;
+
 import java.util.Stack;
 
-class IsPalindrome {
+class IsPalindromeHelper {
 
     // returns true if the parameter n is a palindrome
-    private static boolean isPalindrome(int n) {
+    public static boolean isPalindrome(int n) {
         Stack<Character> charStack = new Stack<Character>();
         String subject = Integer.toString(n);
         int size = subject.length();
@@ -27,7 +29,7 @@ class IsPalindrome {
     }    
 
     // returns true if the parameter subject is a palindrome
-    private static boolean isPalindrome(String subject) {
+    public static boolean isPalindrome(String subject) {
         Stack<Character> charStack = new Stack<Character>();
         int size = subject.length();
 
